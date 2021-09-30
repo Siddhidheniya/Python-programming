@@ -1,0 +1,19 @@
+	ip=input("")
+ip=ip.replace("[","")
+ip=ip.replace("]","")
+#ip.split(",")
+ip=ip.split(",")
+op=[]
+
+for x in range(len(ip)):
+  ip[x]=int(ip[x])
+
+for x in range(len(ip)):
+  if ip[x]>=0:
+    op.append(ip[x])
+
+for x in range(len(op)):
+  op[x]=str(op[x])
+
+show=",".join(op)
+print(show)
