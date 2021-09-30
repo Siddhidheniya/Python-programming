@@ -1,0 +1,16 @@
+max=int(input(""))
+fibo=[]
+a,b=0,1
+c=0
+
+while a-1<max:
+ fibo.append(a)
+ c=a+b
+ a=b
+ b=c
+
+for x in range(len(fibo)):
+  fibo[x]=str(fibo[x])
+
+show=",".join(fibo)
+print(show)
