@@ -1,0 +1,9 @@
+#1
+ip=float(input("Input the radius of the circle : "))
+area=(22/7)*ip**2
+print("The area of the circle with radius",ip,"is: ",area)
+
+#2
+ip = input("Input the Filename: ")
+list_ip = ip.split(".")
+print ("The extension of the file is : " + list_ip[-1])
